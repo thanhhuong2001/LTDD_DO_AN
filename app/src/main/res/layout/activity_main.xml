@@ -66,7 +66,7 @@
         android:layout_marginStart="70dp"
         android:layout_marginTop="650dp"
         android:paddingTop="5dp"
-        android:text="Bạn chưa có tài khoản?" />
+        android:text="Bạn chưa có tài khoảnn?" />
 
     <Button
         android:id="@+id/button2"

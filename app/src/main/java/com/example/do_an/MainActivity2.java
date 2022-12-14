@@ -13,7 +13,7 @@ public class MainActivity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
     }
-    public void dangnhap(View view) {
+    public void handleLoginBtn(View view) {
         Intent intent = new Intent(MainActivity2.this, MainActivity.class);
         startActivity(intent);
     }
