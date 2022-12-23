@@ -11,8 +11,6 @@ import android.widget.ImageView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.ui.AppBarConfiguration;
 
-import com.google.firebase.firestore.FirebaseFirestore;
-
 public class MainActivity extends AppCompatActivity {
     ImageView imageView1, imageView2;
     EditText editPassword;
@@ -28,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.login_page);
         imageView1 = findViewById(R.id.imageView1);
         imageView2 = findViewById(R.id.imageView2);
         editPassword = findViewById(R.id.editPassword);

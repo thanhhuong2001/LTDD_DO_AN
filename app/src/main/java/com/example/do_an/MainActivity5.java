@@ -11,7 +11,7 @@ public class MainActivity5 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main5);
+        setContentView(R.layout.student_list_page);
     }
 
     public void user(View view){
